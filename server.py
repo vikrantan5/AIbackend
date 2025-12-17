@@ -14,7 +14,7 @@ import bcrypt
 import jwt
 from authlib.integrations.starlette_client import OAuth
 from starlette.config import Config
-from emergentintegrations.llm.chat import LlmChat, UserMessage
+# from emergentintegrations.llm.chat import LlmChat, UserMessage
 import asyncio
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
